@@ -74,7 +74,6 @@ function insertPlayerText(element, playerChar) {
     if (!playerX && !playerO) {
         if (element.innerHTML.length === 0) {
             element.innerHTML = playerChar;
-            element.style.backgroundImage = 'url(Capture.PNG)';
         }
     }
 }
